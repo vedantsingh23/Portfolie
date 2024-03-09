@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background-color: #eef4fd;
+}
+
+a{
+    text-decoration: none;
+    color: #52b9b7;
+    font-size: 1rem;
+}
+
+.links{
+
+    display: flex;
+    justify-content: center;
+    max-height: 20px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    margin-right: 40px;
+}
+
+a{
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    color: #d54b81;
+    font-size: 25px;
+    transform:scale(1.2);
+}
