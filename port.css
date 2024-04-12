@@ -34,3 +34,16 @@ body {
 .nav-link{
     text-decoration: none;
 }
+
+.logo{
+    width: auto;
+    height: 120px;
+    position: absolute;
+    left: -1%;
+    top: -2.1%;
+    padding: 1px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
